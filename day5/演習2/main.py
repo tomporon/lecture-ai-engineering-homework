@@ -279,7 +279,7 @@ if __name__ == "__main__":
     print(f"精度: {metrics['accuracy']:.4f}")
     print(f"推論時間: {metrics['inference_time']:.4f}秒")
 
-    # モデルのパフォーマンステスト
+    # モデルのパフォーマンステストを行う
     test_model_performance()
     
     # モデル保存
