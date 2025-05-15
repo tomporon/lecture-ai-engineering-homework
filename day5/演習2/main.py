@@ -279,6 +279,9 @@ if __name__ == "__main__":
     print(f"精度: {metrics['accuracy']:.4f}")
     print(f"推論時間: {metrics['inference_time']:.4f}秒")
 
+    # モデルのパフォーマンステスト
+    test_model_performance()
+    
     # モデル保存
     model_path = ModelTester.save_model(model)
 
